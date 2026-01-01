@@ -34,8 +34,4 @@ function App() {
 
 export default App;
 
-// const [dir,setDir] = useState(-1);
-//   const [active,setActive] = useState(false);
-//   const sectionRef = useRef(null);
-//   const trackRef = useRef(null);
   
