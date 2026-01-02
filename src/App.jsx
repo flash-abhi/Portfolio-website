@@ -9,6 +9,7 @@ import Footer from './sections/Footer';
 import CustomCursor from './components/CustomCursor';
 import { useState } from 'react';
 import IntroAnimation from './components/IntroAnimation';
+import { Toaster} from "react-hot-toast"
 function App() {
   const [introDone,setIntroDone] = useState(false);
 
@@ -28,6 +29,7 @@ function App() {
       <Footer/>
     </div>
     )}
+    <Toaster/>
     </>
   )
 }
